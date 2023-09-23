@@ -1,4 +1,3 @@
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
 
@@ -127,6 +126,38 @@ end)
 
 TpSection:NewButton("Location 7", "", function(a)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4374.22412, 132.417282, 598.792847, -0.581315994, 2.41856988e-08, -0.813677907, 1.36989522e-08, 1, 1.99369765e-08, 0.813677907, 4.4314874e-10, -0.581315994)
+end)
+
+TpSection:NewButton("World 3", "", function(a)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(387.363647, 101.424217, 3148.83154, 1, 0, 1.49011612e-08, 0, 1, 2.98023224e-08, 1.49011612e-08, 2.98023224e-08, 1)
+end)
+
+TpSection:NewButton("Location 1", "", function(a)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(254.208557, 96.3327179, 3145.7146, 0.0269492641, 6.43818368e-08, 0.999636829, 8.21308443e-09, 1, -6.46266471e-08, -0.999636829, 9.95174254e-09, 0.0269492641)
+end)
+
+TpSection:NewButton("Location 2", "", function(a)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-105.570007, 96.3327179, 3152.64087, -0.00942334533, -2.78001906e-08, 0.999955595, -1.50016533e-08, 1, 2.7660052e-08, -0.999955595, -1.47403361e-08, -0.00942334533)
+end)
+
+TpSection:NewButton("Location 3", "", function(a)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-547.195129, 96.3327179, 3157.81421, -0.011643745, 5.77944341e-08, 0.99993223, 1.63311089e-08, 1, -5.76081831e-08, -0.99993223, 1.56592268e-08, -0.011643745)
+end)
+
+TpSection:NewButton("Location 4", "", function(a)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-936.077637, 96.3327179, 3152.18042, 0.0127447629, 8.39198364e-08, 0.999918759, -1.91569716e-09, 1, -8.39022363e-08, -0.999918759, -8.46227532e-10, 0.0127447629)
+end)
+
+TpSection:NewButton("Location 5", "", function(a)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1302.85156, 96.3327179, 3163.89282, 0.0166526549, -3.83496825e-08, 0.99986136, 3.58445829e-10, 1, 3.83490324e-08, -0.99986136, -2.80217072e-10, 0.0166526549)
+end)
+
+TpSection:NewButton("Location 6", "", function(a)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1692.24023, 96.3327179, 3159.42529, -0.00150769984, -8.14033854e-08, 0.999998868, 5.56973667e-09, 1, 8.14118764e-08, -0.999998868, 5.69247494e-09, -0.00150769984)
+end)
+
+TpSection:NewButton("Location 7", "", function(a)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2112.01904, 96.3327103, 3161.32007, 0.0250977315, 2.43463916e-08, 0.999684989, -1.83837182e-10, 1, -2.43494469e-08, -0.999684989, 4.27336638e-10, 0.0250977315)
 end)
 
 ScriptsSection:NewButton("Dark Dex", "Dark Dex", function()
